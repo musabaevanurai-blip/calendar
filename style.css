@@ -1,0 +1,48 @@
+body{
+    margin: 0%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+.block{
+    width: 360px;
+    height: 250px;
+    background-color: aqua;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.left{
+    width: 50%;
+    background-color: rgb(217, 39, 236);
+    text-align: center;
+    padding-top: 35px;
+}
+.left h1{
+    margin: 0%;
+    font-size: 38px;
+}
+.left p{
+    font-size: 30px;
+    margin-top: 80px;
+}
+
+.right{
+    width: 50%;
+    background-color: rgb(93, 47, 137);
+    text-align: center;
+    padding-top: 35px;
+}
+.right h1{
+    margin: 0%;
+    font-size: 38px;
+}
+.right p{
+    font-size: 30px;
+    margin-top: 80px;
+}
